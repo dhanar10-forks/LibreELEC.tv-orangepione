@@ -81,6 +81,11 @@ devices = \
         'config': 'orangepi_pc_defconfig',
         'crust_config': 'orangepi_pc_defconfig',
       },
+      'orangepi-one': {
+        'dtb': 'sun8i-h3-orangepi-one.dtb',
+        'config': 'orangepi_one_defconfig',
+        'crust_config': 'orangepi_one_defconfig',
+      },
       'orangepi-pc-plus': {
         'dtb': 'sun8i-h3-orangepi-pc-plus.dtb',
         'config': 'orangepi_pc_plus_defconfig',
