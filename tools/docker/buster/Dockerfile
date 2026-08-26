@@ -2,6 +2,8 @@ FROM debian:buster
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+RUN sed -i 's/deb.debian.org/archive.debian.org/g' /etc/apt/sources.list
+
 RUN apt-get update \
  && apt-get dist-upgrade -y \
  && apt-get install -y locales sudo \
