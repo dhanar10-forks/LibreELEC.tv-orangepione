@@ -4,10 +4,10 @@
 
 PKG_NAME="rtmpdump"
 PKG_VERSION="c5f04a58fc2aeea6296ca7c44ee4734c18401aa3"
-PKG_SHA256="fd8c21263d93fbde8bee8aa6c5f6a657789674bb0f9e74f050651504d5f43b46"
+PKG_SHA256="1bdb285c578e7c46266876322608fba4984b2502eab56ea8d549c2d1d9df0b86"
 PKG_LICENSE="GPL"
 PKG_SITE="http://rtmpdump.mplayerhq.hu/"
-PKG_URL="http://repo.or.cz/rtmpdump.git/snapshot/${PKG_VERSION}.tar.gz"
+PKG_URL="https://github.com/mirror/rtmpdump/archive/${PKG_VERSION}.zip"
 PKG_DEPENDS_TARGET="toolchain zlib openssl"
 PKG_LONGDESC="rtmpdump is a toolkit for RTMP streams."
 PKG_BUILD_FLAGS="+pic"
